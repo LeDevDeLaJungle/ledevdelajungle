@@ -1,3 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 20px; /* Espace en haut */
+  position: relative;
+}
+
 .content {
   font-family: 'Bangers', cursive;
   font-size: 3rem;
@@ -20,4 +30,61 @@
 
 .jungle {
   color: #2c933b;
+}
+
+.golden-button {
+  position: absolute;
+  top: 20px;
+  background: linear-gradient(90deg, #FFD700, #FFA500, #FFD700);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  text-transform: uppercase;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #FFD700;
+  }
+  to {
+    box-shadow: 0 0 20px #FFA500;
+  }
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+}
+
+.reward-btn {
+  background-color: #ffbb00;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
 }
