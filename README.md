@@ -8,4 +8,4 @@
 - 🌍 [Mon site](https://ledevdelajungle.fr/contact)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/pierre-reynaud-92a174185/)  
 
-🐒 **Codeur de jour, explorateur de la jungle du dev la nuit.**  
+🐒 **OUGA BOUGA**  
