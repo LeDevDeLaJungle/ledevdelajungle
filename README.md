@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Pierre Reynaud  
 
-💻 Développeur passionné, j’explore la jungle du code avec **Java, Kotlin, Spring Boot** côté backend et **Angular** côté frontend.  
+💻 Développeur passionné, j’explore la jungle du code avec **Java, Kotlin, Spring Boot** et **Angular**.  
 
 🚀 Ici, tu trouveras quelques projets et expérimentations en tout genre. N’hésite pas à jeter un œil et à échanger avec moi !  
 
