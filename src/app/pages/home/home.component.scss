@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.content {
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  text-shadow:
+    -3px -3px 0 black,
+    3px -3px 0 black,
+    -3px  3px 0 black,
+    3px  3px 0 black;
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlargeable {
+  transition: transform 0.3s ease-in-out;
+}
+.enlargeable:hover {
+  transform: scale(1.05);
+}
+
+.mascot {
+  max-height: 70vh;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-15px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
